@@ -4,8 +4,9 @@ The default snippets are stored in the ~/Library/Developer/Xcode/UserData/CodeSn
 
 We can check out this git project and use a soft link to the target directory.
 
-For example: 
+Usage:
 
-cd current git project directory
-mv ~/Library/Developer/Xcode/UserData/CodeSnippets/ ~/Library/Developer/Xcode/UserData/CodeSnippets.backup
-ln -s CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets/
+1. check out the project using: git clone https://github.com/tangqiaoboy/xcode_snippet
+2. cd xcode_snippet
+3. ./setup.sh
+
