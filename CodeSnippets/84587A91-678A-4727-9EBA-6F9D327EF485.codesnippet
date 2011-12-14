@@ -14,6 +14,8 @@
   // post notification
   NSDictionary * userInfo = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:200] forKey:@"code"];
 [[NSNotificationCenter defaultCenter] postNotificationName:&lt;#notification_name#&gt; object:self userInfo:userInfo];
+
+- (void)&lt;#functionname#&gt;:(NSNotification*)notification
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>84587A91-678A-4727-9EBA-6F9D327EF485</string>
