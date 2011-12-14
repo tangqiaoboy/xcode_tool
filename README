@@ -1,0 +1,11 @@
+The xcode snippet project is used for managing the snippets in xcode.
+
+The default snippets are stored in the ~/Library/Developer/Xcode/UserData/CodeSnippets/
+
+We can check out this git project and use a soft link to the target directory.
+
+For example: 
+
+cd current git project directory
+mv ~/Library/Developer/Xcode/UserData/CodeSnippets/ ~/Library/Developer/Xcode/UserData/CodeSnippets.backup
+ln -s CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets/
