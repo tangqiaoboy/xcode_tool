@@ -1,0 +1,8 @@
+1. 一个基于 https://github.com/elc/ELCImageGrabber 的模拟器图片生成工具，原工具获取的图片地址在国外，访问太慢，想fork出来改成一个基于国内。
+
+2. 一个将ASIHttpRequest的依赖library加入到工程中的脚本。参考facebook 320的安装python脚本的实现，使得新项目建立起来更快。
+
+3. 总结出一个常用的、基本的View Controller 层的常用方法实现。可能会参考或抽取facebook320的源码来做。
+
+4. 一个自动打ipa包的shell脚本。
+
