@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>notification</string>
+	<string>tq_notification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
@@ -28,6 +28,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

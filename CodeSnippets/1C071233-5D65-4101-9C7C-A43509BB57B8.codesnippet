@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tq_custom_dispatch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    dispatch_queue_t urls_queue = dispatch_queue_create("com.elctech.image_queue", NULL);
+    
+    dispatch_async(urls_queue, ^{
+        [self getImageUrls];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self downloadImages];
+        });
+    });
+    
+    dispatch_release(urls_queue);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1C071233-5D65-4101-9C7C-A43509BB57B8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom dispatch queue</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom dispatch queue</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
