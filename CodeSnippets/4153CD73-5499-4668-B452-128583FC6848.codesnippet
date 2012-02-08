@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark -
-#pragma mark &lt;#Label#&gt;</string>
+	<string>#pragma mark - &lt;#Label#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4153CD73-5499-4668-B452-128583FC6848</string>
 	<key>IDECodeSnippetLanguage</key>
