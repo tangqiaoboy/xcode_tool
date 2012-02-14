@@ -3,7 +3,7 @@
 //  NSStringWrapper
 //
 //  Created by Tang Qiao on 12-2-4.
-//  Copyright (c) 2012年 Netease. All rights reserved.
+//  Copyright (c) 2012年 blog.devtang.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
