@@ -1,6 +1,6 @@
 The xcode tool project is planed to be a collection of xcode tools.
 
-Now, it contains 2 tool:
+Now, it contains 3 tool:
 
 ####1. Code snippets management.
 
@@ -23,4 +23,4 @@ Usage:
 
 ####3. NSString Wrapper
 
-    NSString Wrapper is a wrapper class to decorate NSString methods to java String style.
+NSString Wrapper is a wrapper class to decorate NSString methods to java String style.
