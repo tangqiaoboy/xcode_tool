@@ -39,43 +39,15 @@
 }
 
 - (BOOL) startsWith:(NSString*)prefix {
-    int len = [prefix length];
-    if (len > self.length) {
-        return NO;
-    }
-    for (int i = 0; i < len; ++i) {
-        if ([prefix charAt:i] != [self charAt:i]) {
-            return NO;
-        }
-    }
-    return YES;
+    return [self hasPrefix:prefix];
 }
 
 - (BOOL) endsWith:(NSString*)suffix {
-    int len = suffix.length;
-    if (len > self.length) {
-        return NO;
-    }
-    int pos = self.length - len;
-    for (int i = 0; i < len; ++i, ++pos) {
-        if ([self charAt:pos] != [suffix charAt:i]) {
-            return NO;
-        }
-    }
-    return YES;
+    return [self hasSuffix:suffix];
 }
 
 - (BOOL) equals:(NSString*) anotherString {
-    int len = [anotherString length];
-    if (len != self.length) {
-        return NO;
-    }
-    for (int i = 0; i < len; ++i) {
-        if ([anotherString charAt:i] != [self charAt:i]) {
-            return NO;
-        }
-    }
-    return YES;
+    return [self isEqualToString:anotherString];
 }
 
 - (BOOL) equalsIgnoreCase:(NSString*) anotherString {
