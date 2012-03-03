@@ -30,3 +30,8 @@ NSString Wrapper is a wrapper class to decorate NSString methods to java String 
     1. VersionCompare.h   Macros used for version comparison.
     2. MacroUtils.h       Macros used for debuging and I18N.
     3. UIContants.h       Macros used for UI.
+
+####5. Encoding Utils
+
+    1. Base64       The author is Matt Gallagher. I got the code from <http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html> . The copyright info is in the header of the relevant source file.
+
