@@ -19,7 +19,9 @@ Usage:
 
 ####2. A collection of shell utils
 
-	1. removeTailBlank.sh  It can remove tailing blank space in the .h & .m source file.
+ * removeTailBlank.sh
+
+It can remove tailing blank space in the .h & .m & .mm source file.
 
 ####3. NSString Wrapper
 
@@ -27,11 +29,30 @@ NSString Wrapper is a wrapper class to decorate NSString methods to java String 
 
 ####4. Macro Utils
 
-    1. VersionCompare.h   Macros used for version comparison.
-    2. MacroUtils.h       Macros used for debuging and I18N.
-    3. UIContants.h       Macros used for UI.
+  * VersionCompare.h 
+
+Macros used for version comparison.
+
+* MacroUtils.h
+
+Macros used for debuging and I18N.
+
+* UIContants.h     
+
+Macros used for UI.
 
 ####5. Encoding Utils
 
-    1. Base64       The author is Matt Gallagher. I got the code from <http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html> . The copyright info is in the header of the relevant source file.
+* Base64 
+
+The author is Matt Gallagher. I got the code from [http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.     html](http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html) . The copyright info is in the header of the relevant source file.
+
+* JSON         
+
+If you want a json lib, I recommend [JSONKit](https://github.com/johnezang/JSONKit) .As I know, it's faster than any other open source json libraries. You can get it using: 
+
+    ```
+    git clone https://github.com/johnezang/JSONKit.git
+    ```
+
 
