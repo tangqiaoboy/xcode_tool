@@ -1,6 +1,6 @@
 The xcode tool project is planed to be a collection of xcode tools.
 
-Now, it contains 3 tool:
+Now, it contains the following tools:
 
 ####1. Code snippets management.
 
@@ -24,3 +24,9 @@ Usage:
 ####3. NSString Wrapper
 
 NSString Wrapper is a wrapper class to decorate NSString methods to java String style.
+
+####4. Macro Utils
+
+    1. VersionCompare.h   Macros used for version comparison.
+    2. MacroUtils.h       Macros used for debuging and I18N.
+    3. UIContants.h       Macros used for UI.
