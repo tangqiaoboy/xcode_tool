@@ -17,10 +17,10 @@
     return [self characterAtIndex:index];
 }
 
-/** 
- * Java-like method. Compares two strings lexicographically. 
- * the value 0 if the argument string is equal to this string; 
- * a value less than 0 if this string is lexicographically less than the string argument; 
+/**
+ * Java-like method. Compares two strings lexicographically.
+ * the value 0 if the argument string is equal to this string;
+ * a value less than 0 if this string is lexicographically less than the string argument;
  * and a value greater than 0 if this string is lexicographically greater than the string argument.
  */
 - (int) compareTo:(NSString*) anotherString {
@@ -151,7 +151,7 @@
 
 - (NSArray *) split:(NSString*) separator {
     return [self componentsSeparatedByString:separator];
-} 
+}
 
 
 @end

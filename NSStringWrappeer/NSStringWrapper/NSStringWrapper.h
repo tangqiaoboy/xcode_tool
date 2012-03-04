@@ -13,10 +13,10 @@
 /**  Return the char value at the specified index. */
 - (unichar) charAt:(int)index;
 
-/** 
- * Compares two strings lexicographically. 
- * the value 0 if the argument string is equal to this string; 
- * a value less than 0 if this string is lexicographically less than the string argument; 
+/**
+ * Compares two strings lexicographically.
+ * the value 0 if the argument string is equal to this string;
+ * a value less than 0 if this string is lexicographically less than the string argument;
  * and a value greater than 0 if this string is lexicographically greater than the string argument.
  */
 - (int) compareTo:(NSString*) anotherString;
@@ -59,7 +59,7 @@
 
 - (NSString *) replaceAll:(NSString*)origin with:(NSString*)replacement;
 
-- (NSArray *) split:(NSString*) separator; 
+- (NSArray *) split:(NSString*) separator;
 
 @end
 
