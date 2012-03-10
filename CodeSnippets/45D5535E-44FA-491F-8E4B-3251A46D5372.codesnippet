@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tq_sharedInstance</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+(&lt;#ClassName#&gt; *) sharedInstance
+{
+    static id sharedInstance = nil;
+    if (!sharedInstance) {
+        @synchronized(self){
+            if (!sharedInstance) {
+                sharedInstance = [[self alloc] init];
+            }
+        }
+    }
+    return sharedInstance;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>45D5535E-44FA-491F-8E4B-3251A46D5372</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>shared instance</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Shared Instance</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
