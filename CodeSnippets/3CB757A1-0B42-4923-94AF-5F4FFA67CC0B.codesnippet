@@ -3,35 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_sharedInstance</string>
+	<string>tq_oritation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+(&lt;#ClassName#&gt; *) sharedInstance
+	<string>- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    static id sharedInstance = nil;
-    if (!sharedInstance) {
-        @synchronized(self){
-            if (!sharedInstance) {
-                sharedInstance = [[self alloc] init];
-            }
-        }
+    int &lt;#var#&gt; = 1;
+    if (UIInterfaceOrientationIsPortrait(interfaceOrientation)) {
+        return NO;
     }
-    return sharedInstance;
+	return YES;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45D5535E-44FA-491F-8E4B-3251A46D5372</string>
+	<string>3CB757A1-0B42-4923-94AF-5F4FFA67CC0B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>shared instance</string>
+	<string>tq_oritation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Shared Instance</string>
+	<string>tq_oritation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
