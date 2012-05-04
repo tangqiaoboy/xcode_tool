@@ -26,9 +26,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>shared instance</string>
+	<string>tq shared instance</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Shared Instance</string>
+	<string>tq Shared Instance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
