@@ -12,13 +12,10 @@
 	<string>+(&lt;#ClassName#&gt; *) sharedInstance
 {
     static id sharedInstance = nil;
-    if (!sharedInstance) {
-        @synchronized(self){
-            if (!sharedInstance) {
-                sharedInstance = [[self alloc] init];
-            }
-        }
-    }
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        sharedInstance = [[self alloc] init];
+    });    
     return sharedInstance;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
