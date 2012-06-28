@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>resumable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Resumable Protocol 
+
+- (ApiRecord *) apiRecordValue {
+    ApiRecord * record = [[ApiRecord alloc] init];
+    record.apiId = [ModelUtils getRequestHashKey:self];
+    record.clazz = [self class];
+    record.args = [NSDictionary dictionaryWithObjectsAndKeys:
+                   &lt;#value#&gt;, @"&lt;#key#&gt;", nil];
+    record.createdTime = [NSDate date];
+    record.summary = [ModelUtils getNetworkQueueSummary:&lt;#summery#&gt;];
+    record.errorType = [self getErrorType];
+    return record;
+}
+
+- (void) resumeFromApiRecord:(ApiRecord *)apiRecord {
+    NSDictionary * args = apiRecord.args;
+    
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F8E403BB-2DA1-4CBE-AC87-9AC48CAA2C7B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>resumable protocol</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>resumable protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

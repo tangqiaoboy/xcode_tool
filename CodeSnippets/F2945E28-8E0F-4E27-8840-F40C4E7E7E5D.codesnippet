@@ -3,29 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_sharedInstance</string>
+	<string>rrr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#ClassName#&gt; *)sharedInstance
-{
-    static id sharedInstance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });    
-    return sharedInstance;
-}</string>
+	<string>#pragma mark - Network Request Delegate
+
+- (void) requestFinished:(BaseRequest *) request {
+    
+}
+
+- (void) requestFailed:(BaseRequest *) request {
+    
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45D5535E-44FA-491F-8E4B-3251A46D5372</string>
+	<string>F2945E28-8E0F-4E27-8840-F40C4E7E7E5D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq shared instance</string>
+	<string>Network Request Delegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq Shared Instance</string>
+	<string>Network Request Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

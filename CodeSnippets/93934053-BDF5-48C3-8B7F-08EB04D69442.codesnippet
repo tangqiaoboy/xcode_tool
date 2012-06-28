@@ -3,29 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_sharedInstance</string>
+	<string>tq_init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#ClassName#&gt; *)sharedInstance
-{
-    static id sharedInstance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });    
-    return sharedInstance;
-}</string>
+	<string>    self = [super init];
+    if (self) {
+    }
+    return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>45D5535E-44FA-491F-8E4B-3251A46D5372</string>
+	<string>93934053-BDF5-48C3-8B7F-08EB04D69442</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq shared instance</string>
+	<string>tq init code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq Shared Instance</string>
+	<string>tq init code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
