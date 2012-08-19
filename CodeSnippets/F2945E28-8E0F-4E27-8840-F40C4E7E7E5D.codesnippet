@@ -12,11 +12,15 @@
 	<string>#pragma mark - Network Request Delegate
 
 - (void) requestFinished:(BaseRequest *) request {
-    
+
 }
 
 - (void) requestFailed:(BaseRequest *) request {
-    
+
+}
+
+- (void) clearRequest {
+
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
