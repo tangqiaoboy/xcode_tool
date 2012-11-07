@@ -30,7 +30,7 @@
 #define UI_TAB_BAR_HEIGHT           49
 #define UI_STATUS_BAR_HEIGHT        20
 #define UI_SCREEN_WIDTH             320
-#define UI_SCREEN_HEIGHT            480
+#define UI_SCREEN_HEIGHT            ([[UIScreen mainScreen] bounds].size.height)
 
 #define UI_LABEL_LENGTH             200
 #define UI_LABEL_HEIGHT             15
@@ -65,9 +65,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Macro Utils</string>
+	<string>TQ Macro Utils</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Macro Utils</string>
+	<string>TQ Macro Utils</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

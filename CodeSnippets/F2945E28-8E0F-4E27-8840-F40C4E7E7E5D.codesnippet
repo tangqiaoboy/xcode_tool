@@ -11,15 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - Network Request Delegate
 
-- (void) requestFinished:(BaseRequest *) request {
+- (void)requestFinished:(BaseRequest *)request {
 
 }
 
-- (void) requestFailed:(BaseRequest *) request {
+- (void)requestFailed:(BaseRequest *)request {
 
 }
 
-- (void) clearRequest {
+- (void)clearRequest {
 
 }
 </string>
