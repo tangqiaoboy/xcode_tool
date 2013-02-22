@@ -13,9 +13,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7707FE2A-C6CF-4774-8A7D-EA6BEE058C11</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tq property declaration - assign</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC property declaration - assign</string>
+	<string>tq property declaration - assign</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

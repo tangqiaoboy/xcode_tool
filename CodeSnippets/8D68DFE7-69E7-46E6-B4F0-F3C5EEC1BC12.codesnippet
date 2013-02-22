@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>www</string>
+	<string>tq_extension</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; * &lt;#name#&gt;;</string>
+	<string>@interface &lt;#name#&gt;()
+
+@end
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E10BEAE2-7433-4892-9314-95759F276395</string>
+	<string>8D68DFE7-69E7-46E6-B4F0-F3C5EEC1BC12</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tq add interface() extension</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TQ Property declaration - weak</string>
+	<string>tq add interface() extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

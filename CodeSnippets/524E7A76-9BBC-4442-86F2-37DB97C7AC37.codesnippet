@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>www</string>
+	<string>tq_register_nib</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (weak, nonatomic) &lt;#type#&gt; * &lt;#name#&gt;;</string>
+	<string>#define ReuseIdentifier @""
+    UINib * nib = [UINib nibWithNibName:@"" bundle:nil];
+    [_tableView registerNib:nib forCellReuseIdentifier:ReuseIdentifier];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E10BEAE2-7433-4892-9314-95759F276395</string>
+	<string>524E7A76-9BBC-4442-86F2-37DB97C7AC37</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tq register nib</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>TQ Property declaration - weak</string>
+	<string>tq register nib</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
