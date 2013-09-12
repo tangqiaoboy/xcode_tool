@@ -6,10 +6,10 @@
 	<string>aaa</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (assign, nonatomic) &lt;#type#&gt; &lt;#name#&gt;</string>
+	<string>@property (assign, nonatomic) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7707FE2A-C6CF-4774-8A7D-EA6BEE058C11</string>
 	<key>IDECodeSnippetLanguage</key>
