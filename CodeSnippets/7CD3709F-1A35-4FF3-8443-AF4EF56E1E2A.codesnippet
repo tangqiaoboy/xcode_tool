@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyblock</string>
+	<string>methodlazyload</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; (^&lt;#blockname#&gt;)(&lt;#param#&gt;);</string>
+	<string>-(&lt;#type#&gt;*)&lt;#methodname#&gt;
+{
+    if (nil == &lt;#name#&gt;)
+    {
+        &lt;#name#&gt; = [[&lt;#type#&gt; alloc]init];
+    }
+    return &lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F038B20-78CA-414C-91A8-C188EAF274CD</string>
+	<string>7CD3709F-1A35-4FF3-8443-AF4EF56E1E2A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property block</string>
+	<string>Method lazy load</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property block (hulk)</string>
+	<string>Method lazy load (hulk)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

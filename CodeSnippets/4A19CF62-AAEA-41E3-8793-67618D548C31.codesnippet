@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyblock</string>
+	<string>pragmalabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; (^&lt;#blockname#&gt;)(&lt;#param#&gt;);</string>
+	<string>#pragma mark
+#pragma mark &lt;#Label#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F038B20-78CA-414C-91A8-C188EAF274CD</string>
+	<string>4A19CF62-AAEA-41E3-8793-67618D548C31</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property block</string>
+	<string>#pragma mark</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property block (hulk)</string>
+	<string>#pragma mark (hulk)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

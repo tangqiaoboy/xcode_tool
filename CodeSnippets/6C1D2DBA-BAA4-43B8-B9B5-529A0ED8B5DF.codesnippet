@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyblock</string>
+	<string>@propertyassign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; (^&lt;#blockname#&gt;)(&lt;#param#&gt;);</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F038B20-78CA-414C-91A8-C188EAF274CD</string>
+	<string>6C1D2DBA-BAA4-43B8-B9B5-529A0ED8B5DF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property block</string>
+	<string>@property assign </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property block (hulk)</string>
+	<string>@property assign (hulk)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

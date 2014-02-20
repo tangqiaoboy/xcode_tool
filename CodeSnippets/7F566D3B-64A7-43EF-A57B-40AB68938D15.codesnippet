@@ -3,21 +3,42 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyblock</string>
+	<string>methodsingleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#type#&gt; (^&lt;#blockname#&gt;)(&lt;#param#&gt;);</string>
+	<string>static &lt;#type#&gt; *shareInstance;
+
++ (instancetype) shareInstance
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        shareInstance = [[&lt;#type#&gt; alloc]init];
+    });
+    return shareInstance;
+}
+
+- (id)init
+{
+    NSAssert(!shareInstance, @"singleton object.");
+    self = [super init];
+    if (self)
+    {
+        
+    }
+    return self;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2F038B20-78CA-414C-91A8-C188EAF274CD</string>
+	<string>7F566D3B-64A7-43EF-A57B-40AB68938D15</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@property block</string>
+	<string>Method singleton</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property block (hulk)</string>
+	<string>Method singleton (hulk)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
