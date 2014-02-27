@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(&lt;#type#&gt;*)&lt;#methodname#&gt;
+	<string>-(&lt;#type#&gt; *)&lt;#methodname#&gt;
 {
     if (nil == &lt;#name#&gt;)
     {
