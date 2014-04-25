@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>methodsingleton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static &lt;#type#&gt; *shareInstance;
+
++ (instancetype) shareInstance
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        shareInstance = [[&lt;#type#&gt; alloc]init];
+    });
+    return shareInstance;
+}
+
+- (id)init
+{
+    NSAssert(!shareInstance, @"singleton object.");
+    self = [super init];
+    if (self)
+    {
+        
+    }
+    return self;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7F566D3B-64A7-43EF-A57B-40AB68938D15</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Method singleton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Method singleton (hulk)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
