@@ -3,34 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rrr</string>
+	<string>ccc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Network Request Delegate
-
-- (void)requestFinished:(YTKBaseRequest *)request {
-
-}
-
-- (void)requestFailed:(YTKBaseRequest *)request {
-
-}
-
-- (void)clearRequest {
-
-}
-</string>
+	<string>static NSString *const &lt;#name#&gt; = @"&lt;#value#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F2945E28-8E0F-4E27-8840-F40C4E7E7E5D</string>
+	<string>CD26A5BB-92D4-475D-8741-43745490C1EF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Network Request Delegate</string>
+	<string>static NSString</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Network Request Delegate</string>
+	<string>static NSString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
